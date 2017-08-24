@@ -39,6 +39,7 @@ public class Utils {
 				System.setProperty(Constants.chrome_driver, Constants.chrome_driver_path);
 				   driver= new ChromeDriver();
 				   Log.info("Chrome driver is instantiated");
+				 
 				  
 				  
 			}
@@ -47,10 +48,12 @@ public class Utils {
 				System.setProperty(Constants.IE_driver, Constants.IE_driver_path);
 				   driver= new InternetExplorerDriver();
 				   Log.info("IE driver is instantiated");
+				   
 			} 
 			else 
 			{
-				Log.info("Browser name is not defined");
+				Log.error("Browser name is not defined");
+				
 			}
 			 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			 driver.get(Constants.url);

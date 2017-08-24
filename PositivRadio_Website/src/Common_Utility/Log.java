@@ -41,30 +41,35 @@ public class Log {
 	 public static void info(String message) {
 	 
 			Log.info(message);
+			System.out.println(message);
 	 
 			}
 	 
 	 public static void warn(String message) {
 	 
 	    Log.warn(message);
+	    System.out.println(message);
 	 
 		}
 	 
 	 public static void error(String message) {
 	 
 	    Log.error(message);
+	    System.out.println(message);
 	 
 		}
 	 
 	 public static void fatal(String message) {
 	 
 	    Log.fatal(message);
+	    System.out.println(message);
 	 
 		}
 	 
 	 public static void debug(String message) {
 	 
 	    Log.debug(message);
+	    System.out.println(message);
 	 
 		}
 	}

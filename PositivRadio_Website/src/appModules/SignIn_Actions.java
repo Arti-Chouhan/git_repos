@@ -21,11 +21,13 @@ public class SignIn_Actions {
 		sPassword = ExcelUtils.getCellData(iTestCaseRow, Constants.password_col);
 		 
 		   SignIn_page.txt_email().sendKeys(sEmail);
-		   Log.info(sEmail + " : entered in Username textbox");		   
+		   Log.info(sEmail + " : entered in Username textbox");	
+		  // System.out.println(sEmail + " : entered in Username textbox");
 		   
 		   
 		   SignIn_page.txt_password().sendKeys(sPassword);
 		   Log.info(sPassword + " : entered in password textbox");
+		  // System.out.println(sPassword + " : entered in password textbox");
 		   
 		 
 		   SignIn_page.btn_login().click();
