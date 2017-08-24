@@ -36,7 +36,7 @@ public class SignUp_Test {
 		Log.StartTestCase(sTestCaseName);
 		
 		//This is to open the Excel file. Excel path, file name and the sheet name are parameters to this method
-	    ExcelUtils.setFile(Constants.path_testData + "\\" + Constants.fileName_testData, Constants.SheetName_TestData);			
+		ExcelUtils.setFile(System.getProperty("user.dir")+ Constants.path_testData +"\\"+ Constants.fileName_testData, Constants.SheetName_TestData);		
 		Log.info("Excel file is opened");
 		
 		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName, Constants.testcasename_col);

@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="automation_Testcases.SignIn_Test"/>
+      <class name="automation_Testcases.SignUp_Test"/>
       
     </classes>
   </test> <!-- Test -->

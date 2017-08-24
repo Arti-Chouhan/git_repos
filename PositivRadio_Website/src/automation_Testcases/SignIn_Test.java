@@ -37,7 +37,7 @@ public class SignIn_Test {
 		Log.StartTestCase(sTestCaseName);
 		
 		//This is to open the Excel file. Excel path, file name and the sheet name are parameters to this method
-	    ExcelUtils.setFile(Constants.path_testData + "\\" + Constants.fileName_testData, Constants.SheetName_TestData);			
+	    ExcelUtils.setFile(System.getProperty("user.dir")+ Constants.path_testData +"\\"+ Constants.fileName_testData, Constants.SheetName_TestData);			
 		Log.info("Excel file is opened");
 		
 		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName, Constants.testcasename_col);
@@ -79,7 +79,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=1,enabled=false) 
+	@Test(priority=1,enabled=true) 
 	public void Blank_Email_TC() throws Exception
 	{
 		try
@@ -109,7 +109,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=2,enabled=false) 
+	@Test(priority=2,enabled=true) 
 	public void Blank_Password_TC() throws Exception
 	{
 		try
@@ -139,7 +139,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=3,enabled=false) 
+	@Test(priority=3,enabled=true) 
 	public void Invalid_EmailFormat_TC() throws Exception
 	{
 		try
@@ -169,7 +169,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=4,enabled=false) 
+	@Test(priority=4,enabled=true) 
 	public void Incorrect_Password_TC() throws Exception
 	{
 		try
@@ -199,7 +199,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=5,enabled=false) 
+	@Test(priority=5,enabled=true) 
 	public void Unregistered_Email_TC() throws Exception
 	{
 		try
@@ -229,7 +229,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=6,enabled=false) 
+	@Test(priority=6,enabled=true) 
 	public void ForgotPassword_Navigate_TC() throws Exception
 	{
 		try
@@ -259,7 +259,7 @@ public class SignIn_Test {
 					
 	}
 	
-	@Test(priority=7,enabled=false) 
+	@Test(priority=7,enabled=true) 
 	public void SignUp_Navigate_TC() throws Exception
 	{
 		try

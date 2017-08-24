@@ -21,7 +21,7 @@ public class Constants {
 	//constants for test_data excel sheet
 	
 	//public static final String path_testData = "user.dir" +"\\"+"C:\\Users\\Owner\\eclipse-workspace\\PositivRadio_Website\\src\\testData";
-	public static final String path_testData = "user.dir" +"\\"+"src\\testData";
+	public static final String path_testData = "\\src\\testData";
 	public static final String fileName_testData = "PositivRadio_Website_testData.xlsx";
 	public static final String SheetName_TestData = "TestData";
 	
