@@ -75,7 +75,7 @@ public class ExcelUtils {
 				Cell.setCellValue(Result);
 			}
 			
-			FileOutputStream file_out = new FileOutputStream(Constants.path_testData  + "\\" +Constants.fileName_testData);
+			FileOutputStream file_out = new FileOutputStream(System.getProperty("user.dir")+Constants.path_testData  + "\\" +Constants.fileName_testData);
 			ExcelWorkbook.write(file_out);
 			System.out.println("Successfully data is written in excel file");
 			file_out.flush();

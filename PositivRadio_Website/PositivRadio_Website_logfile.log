@@ -1,0 +1,362 @@
+2017-08-24 14:26:19,630 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:26:19,643 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:26:19,643 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignIn_Successful_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:26:19,643 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:26:19,643 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:26:20,776 INFO  [Log] Excel file is opened 
+2017-08-24 14:26:37,235 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:27:17,453 INFO  [Log] Website is launched 
+2017-08-24 14:27:18,739 INFO  [Log] Email id textbox is found on Login page 
+2017-08-24 14:27:20,704 INFO  [Log] arti.chouhan@gate6.com : entered in Username textbox 
+2017-08-24 14:27:20,726 INFO  [Log] Password textbox is found on login page 
+2017-08-24 14:27:20,815 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:27:20,839 INFO  [Log] Login button is found on login page 
+2017-08-24 14:27:21,308 INFO  [Log] Login button is clicked 
+2017-08-24 14:27:32,388 ERROR [Log] Main title text is not found on Home page. And error is : no such element: Unable to locate element: {"method":"xpath","selector":".//*[@class='main-title']"}
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.38 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESK-67A', ip: '10.1.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir13060_3282}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bb3a25075e728cdd812ea9ff6e011844
+*** Element info: {Using=xpath, value=.//*[@class='main-title']} 
+2017-08-24 14:27:32,389 ERROR [Log] User is not Signed In successfully.Error is  : no such element: Unable to locate element: {"method":"xpath","selector":".//*[@class='main-title']"}
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.38 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESK-67A', ip: '10.1.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir13060_3282}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bb3a25075e728cdd812ea9ff6e011844
+*** Element info: {Using=xpath, value=.//*[@class='main-title']} 
+2017-08-24 14:27:32,614 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:27:55,858 INFO  [Log] Driver is closed 
+2017-08-24 14:27:55,858 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:27:55,858 INFO  [Log] X 
+2017-08-24 14:27:55,859 INFO  [Log] X 
+2017-08-24 14:27:55,859 INFO  [Log] X 
+2017-08-24 14:27:55,859 INFO  [Log] X 
+2017-08-24 14:27:55,874 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:27:55,874 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:27:55,874 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignUp_Successful_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:27:55,875 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:27:55,875 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:27:56,023 INFO  [Log] Excel file is opened 
+2017-08-24 14:27:59,659 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:28:24,953 INFO  [Log] Website is launched 
+2017-08-24 14:28:24,983 INFO  [Log] Signup link is found on login page 
+2017-08-24 14:28:25,071 INFO  [Log] Sign Up link is clicked 
+2017-08-24 14:28:25,125 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:28:25,356 INFO  [Log] Pop Daniel : entered in Full Name textbox 
+2017-08-24 14:28:25,380 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:28:25,540 INFO  [Log] pop@mailinator.com : entered in Email textbox 
+2017-08-24 14:28:25,563 INFO  [Log] Password textbox is found on SignUp page 
+2017-08-24 14:28:25,667 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:28:25,690 INFO  [Log] SignUp button is found on SignUp page 
+2017-08-24 14:28:25,758 INFO  [Log] Login button is clicked 
+2017-08-24 14:28:25,765 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:28:26,698 INFO  [Log] Driver is closed 
+2017-08-24 14:28:26,698 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:28:26,698 INFO  [Log] X 
+2017-08-24 14:28:26,698 INFO  [Log] X 
+2017-08-24 14:28:26,698 INFO  [Log] X 
+2017-08-24 14:28:26,698 INFO  [Log] X 
+2017-08-24 14:28:26,712 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:26,712 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:26,712 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Blank_Email_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:28:26,712 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:26,712 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:26,786 INFO  [Log] Excel file is opened 
+2017-08-24 14:28:30,029 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:28:54,432 INFO  [Log] Website is launched 
+2017-08-24 14:28:54,459 INFO  [Log] Email id textbox is found on Login page 
+2017-08-24 14:28:54,511 INFO  [Log]  : entered in Username textbox 
+2017-08-24 14:28:54,536 INFO  [Log] Password textbox is found on login page 
+2017-08-24 14:28:54,633 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:28:54,659 INFO  [Log] Login button is found on login page 
+2017-08-24 14:28:54,725 INFO  [Log] Login button is clicked 
+2017-08-24 14:28:54,754 INFO  [Log] Validation message for email id is found on login page 
+2017-08-24 14:28:54,905 INFO  [Log] [[ChromeDriver: chrome on XP (630c1290a754dfcadfd66f09e3c9ad65)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div/div[4]/div/form/div[1]/div/div/div] is visible  
+2017-08-24 14:28:54,951 INFO  [Log] Validation message : The Email field is required. is verified 
+2017-08-24 14:28:54,966 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:28:55,965 INFO  [Log] Driver is closed 
+2017-08-24 14:28:55,965 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:28:55,965 INFO  [Log] X 
+2017-08-24 14:28:55,965 INFO  [Log] X 
+2017-08-24 14:28:55,966 INFO  [Log] X 
+2017-08-24 14:28:55,966 INFO  [Log] X 
+2017-08-24 14:28:55,976 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:55,978 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:55,978 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignUp_Blank_FullName_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:28:55,978 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:55,978 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:28:56,103 INFO  [Log] Excel file is opened 
+2017-08-24 14:28:59,443 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:29:28,043 INFO  [Log] Website is launched 
+2017-08-24 14:29:28,074 INFO  [Log] Signup link is found on login page 
+2017-08-24 14:29:28,170 INFO  [Log] Sign Up link is clicked 
+2017-08-24 14:29:28,214 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:29:28,271 INFO  [Log]  : entered in Full Name textbox 
+2017-08-24 14:29:28,301 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:29:28,566 INFO  [Log] janice@mailinator.com : entered in Email textbox 
+2017-08-24 14:29:28,593 INFO  [Log] Password textbox is found on SignUp page 
+2017-08-24 14:29:28,700 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:29:28,732 INFO  [Log] SignUp button is found on SignUp page 
+2017-08-24 14:29:28,808 INFO  [Log] Login button is clicked 
+2017-08-24 14:29:28,838 INFO  [Log] Validation message for Full Name is found on SignUp page 
+2017-08-24 14:29:28,884 INFO  [Log] [[ChromeDriver: chrome on XP (4cd95e5127b5335f1350d18a99b1924d)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div[1]/div[4]/div/form/div[1]/div/div/div] is visible  
+2017-08-24 14:29:28,917 INFO  [Log] Validation message : The Full Name field is required. is verified 
+2017-08-24 14:29:28,936 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:29:30,098 INFO  [Log] Driver is closed 
+2017-08-24 14:29:30,098 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:29:30,098 INFO  [Log] X 
+2017-08-24 14:29:30,099 INFO  [Log] X 
+2017-08-24 14:29:30,099 INFO  [Log] X 
+2017-08-24 14:29:30,099 INFO  [Log] X 
+2017-08-24 14:29:30,112 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:30,113 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:30,113 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Blank_Password_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:29:30,113 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:30,113 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:30,171 INFO  [Log] Excel file is opened 
+2017-08-24 14:29:34,073 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:29:54,023 INFO  [Log] Website is launched 
+2017-08-24 14:29:54,051 INFO  [Log] Email id textbox is found on Login page 
+2017-08-24 14:29:54,249 INFO  [Log] arti.chouhan@gate6.com : entered in Username textbox 
+2017-08-24 14:29:54,270 INFO  [Log] Password textbox is found on login page 
+2017-08-24 14:29:54,316 INFO  [Log]  : entered in password textbox 
+2017-08-24 14:29:54,339 INFO  [Log] Login button is found on login page 
+2017-08-24 14:29:54,406 INFO  [Log] Login button is clicked 
+2017-08-24 14:29:54,437 INFO  [Log] Validation message for password is found on login page 
+2017-08-24 14:29:54,478 INFO  [Log] [[ChromeDriver: chrome on XP (47f7622288aa5d5d93f3aad13ed4cd09)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div/div[4]/div/form/div[2]/div/div/div] is visible  
+2017-08-24 14:29:54,503 INFO  [Log] Validation message : The Password field is required is verified 
+2017-08-24 14:29:54,516 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:29:55,665 INFO  [Log] Driver is closed 
+2017-08-24 14:29:55,665 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:29:55,665 INFO  [Log] X 
+2017-08-24 14:29:55,665 INFO  [Log] X 
+2017-08-24 14:29:55,665 INFO  [Log] X 
+2017-08-24 14:29:55,665 INFO  [Log] X 
+2017-08-24 14:29:55,674 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:55,674 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:55,674 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignUp_Blank_Email_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:29:55,674 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:55,674 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:29:55,720 INFO  [Log] Excel file is opened 
+2017-08-24 14:29:59,679 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:30:34,531 INFO  [Log] Website is launched 
+2017-08-24 14:30:34,565 INFO  [Log] Signup link is found on login page 
+2017-08-24 14:30:34,648 INFO  [Log] Sign Up link is clicked 
+2017-08-24 14:30:34,682 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:30:34,819 INFO  [Log] Janice Rock : entered in Full Name textbox 
+2017-08-24 14:30:34,847 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:30:34,897 INFO  [Log]  : entered in Email textbox 
+2017-08-24 14:30:34,920 INFO  [Log] Password textbox is found on SignUp page 
+2017-08-24 14:30:35,026 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:30:35,049 INFO  [Log] SignUp button is found on SignUp page 
+2017-08-24 14:30:35,117 INFO  [Log] Login button is clicked 
+2017-08-24 14:30:35,145 INFO  [Log] Validation message for email id is found on SignUp page 
+2017-08-24 14:30:35,185 INFO  [Log] [[ChromeDriver: chrome on XP (54401b128923a9baf9728e8f44b314ed)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div[1]/div[4]/div/form/div[2]/div/div/div] is visible  
+2017-08-24 14:30:35,214 INFO  [Log] Validation message : The Email field is required. is verified 
+2017-08-24 14:30:35,217 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:30:36,363 INFO  [Log] Driver is closed 
+2017-08-24 14:30:36,363 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:30:36,363 INFO  [Log] X 
+2017-08-24 14:30:36,363 INFO  [Log] X 
+2017-08-24 14:30:36,363 INFO  [Log] X 
+2017-08-24 14:30:36,363 INFO  [Log] X 
+2017-08-24 14:30:36,375 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:30:36,375 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:30:36,375 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Invalid_EmailFormat_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:30:36,376 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:30:36,376 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:30:36,430 INFO  [Log] Excel file is opened 
+2017-08-24 14:30:40,274 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:31:12,055 INFO  [Log] Website is launched 
+2017-08-24 14:31:12,086 INFO  [Log] Email id textbox is found on Login page 
+2017-08-24 14:31:12,241 INFO  [Log] arti.chouhan : entered in Username textbox 
+2017-08-24 14:31:12,267 INFO  [Log] Password textbox is found on login page 
+2017-08-24 14:31:12,396 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:31:12,416 INFO  [Log] Login button is found on login page 
+2017-08-24 14:31:12,484 INFO  [Log] Login button is clicked 
+2017-08-24 14:31:12,515 INFO  [Log] Validation message for email id is found on login page 
+2017-08-24 14:31:12,569 INFO  [Log] [[ChromeDriver: chrome on XP (e29a6e7533b3ac792941fb9f35ba8f98)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div/div[4]/div/form/div[1]/div/div/div] is visible  
+2017-08-24 14:31:12,606 INFO  [Log] Validation message : Please enter valid email address. is verified 
+2017-08-24 14:31:12,610 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:31:14,069 INFO  [Log] Driver is closed 
+2017-08-24 14:31:14,070 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:31:14,070 INFO  [Log] X 
+2017-08-24 14:31:14,070 INFO  [Log] X 
+2017-08-24 14:31:14,070 INFO  [Log] X 
+2017-08-24 14:31:14,070 INFO  [Log] X 
+2017-08-24 14:31:14,262 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:14,263 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:14,263 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignUp_Blank_Password_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:31:14,263 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:14,263 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:14,315 INFO  [Log] Excel file is opened 
+2017-08-24 14:31:18,850 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:31:52,148 INFO  [Log] Website is launched 
+2017-08-24 14:31:52,178 INFO  [Log] Signup link is found on login page 
+2017-08-24 14:31:52,283 INFO  [Log] Sign Up link is clicked 
+2017-08-24 14:31:52,328 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:31:52,475 INFO  [Log] Janice Rock : entered in Full Name textbox 
+2017-08-24 14:31:52,499 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:31:52,680 INFO  [Log] janice@mailinator.com : entered in Email textbox 
+2017-08-24 14:31:52,706 INFO  [Log] Password textbox is found on SignUp page 
+2017-08-24 14:31:52,768 INFO  [Log]  : entered in password textbox 
+2017-08-24 14:31:52,792 INFO  [Log] SignUp button is found on SignUp page 
+2017-08-24 14:31:52,848 INFO  [Log] Login button is clicked 
+2017-08-24 14:31:52,877 INFO  [Log] Validation message for password is found on SignUp page 
+2017-08-24 14:31:52,914 INFO  [Log] [[ChromeDriver: chrome on XP (ce883c4666a895e7f77d7e3f9e8ab0c0)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div[1]/div[4]/div/form/div[3]/div] is visible  
+2017-08-24 14:31:52,943 INFO  [Log] Validation message : The Password field is required is verified 
+2017-08-24 14:31:52,946 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:31:54,112 INFO  [Log] Driver is closed 
+2017-08-24 14:31:54,112 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:31:54,113 INFO  [Log] X 
+2017-08-24 14:31:54,113 INFO  [Log] X 
+2017-08-24 14:31:54,113 INFO  [Log] X 
+2017-08-24 14:31:54,113 INFO  [Log] X 
+2017-08-24 14:31:54,134 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:54,134 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:54,134 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Incorrect_Password_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:31:54,134 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:54,134 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:31:54,176 INFO  [Log] Excel file is opened 
+2017-08-24 14:31:57,488 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:32:25,308 INFO  [Log] Website is launched 
+2017-08-24 14:32:25,337 INFO  [Log] Email id textbox is found on Login page 
+2017-08-24 14:32:25,564 INFO  [Log] arti.chouhan@gate6.com : entered in Username textbox 
+2017-08-24 14:32:25,586 INFO  [Log] Password textbox is found on login page 
+2017-08-24 14:32:25,693 INFO  [Log] Gatesix1234 : entered in password textbox 
+2017-08-24 14:32:25,717 INFO  [Log] Login button is found on login page 
+2017-08-24 14:32:25,790 INFO  [Log] Login button is clicked 
+2017-08-24 14:32:27,002 INFO  [Log] Validation message for wrong credentials is found on login page 
+2017-08-24 14:32:27,040 INFO  [Log] [[ChromeDriver: chrome on XP (30fbef31b19a0e35c8ea683b85757ce2)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div/div[4]/div/alert/div] is visible  
+2017-08-24 14:32:27,121 INFO  [Log] Validation message : Invalid Email or Password. is verified 
+2017-08-24 14:32:27,124 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:32:29,688 INFO  [Log] Driver is closed 
+2017-08-24 14:32:29,688 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:32:29,688 INFO  [Log] X 
+2017-08-24 14:32:29,688 INFO  [Log] X 
+2017-08-24 14:32:29,688 INFO  [Log] X 
+2017-08-24 14:32:29,688 INFO  [Log] X 
+2017-08-24 14:32:29,702 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:32:29,703 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:32:29,703 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignUp_Invalid_EmailFormat_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:32:29,703 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:32:29,703 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:32:29,750 INFO  [Log] Excel file is opened 
+2017-08-24 14:32:35,332 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:33:02,047 INFO  [Log] Website is launched 
+2017-08-24 14:33:02,082 INFO  [Log] Signup link is found on login page 
+2017-08-24 14:33:02,214 INFO  [Log] Sign Up link is clicked 
+2017-08-24 14:33:02,240 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:33:02,453 INFO  [Log] Janice Rock : entered in Full Name textbox 
+2017-08-24 14:33:02,475 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:33:02,637 INFO  [Log] janice.rock : entered in Email textbox 
+2017-08-24 14:33:02,665 INFO  [Log] Password textbox is found on SignUp page 
+2017-08-24 14:33:02,821 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:33:02,848 INFO  [Log] SignUp button is found on SignUp page 
+2017-08-24 14:33:02,931 INFO  [Log] Login button is clicked 
+2017-08-24 14:33:02,971 INFO  [Log] Validation message for email id is found on SignUp page 
+2017-08-24 14:33:03,312 INFO  [Log] [[ChromeDriver: chrome on XP (6b49e7609cbe75ccefca4d67f1a9d6c6)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div[1]/div[4]/div/form/div[2]/div/div/div] is visible  
+2017-08-24 14:33:03,354 INFO  [Log] Validation message : Please enter valid email address. is verified 
+2017-08-24 14:33:03,358 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:33:05,161 INFO  [Log] Driver is closed 
+2017-08-24 14:33:05,161 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:33:05,161 INFO  [Log] X 
+2017-08-24 14:33:05,161 INFO  [Log] X 
+2017-08-24 14:33:05,161 INFO  [Log] X 
+2017-08-24 14:33:05,161 INFO  [Log] X 
+2017-08-24 14:33:05,174 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:05,174 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:05,174 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Unregistered_Email_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:33:05,174 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:05,174 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:05,215 INFO  [Log] Excel file is opened 
+2017-08-24 14:33:08,659 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:33:30,433 INFO  [Log] Website is launched 
+2017-08-24 14:33:30,459 INFO  [Log] Email id textbox is found on Login page 
+2017-08-24 14:33:30,682 INFO  [Log] arti.chouhan1111@gate6.com : entered in Username textbox 
+2017-08-24 14:33:30,704 INFO  [Log] Password textbox is found on login page 
+2017-08-24 14:33:30,794 INFO  [Log] Gatesix12 : entered in password textbox 
+2017-08-24 14:33:30,816 INFO  [Log] Login button is found on login page 
+2017-08-24 14:33:30,880 INFO  [Log] Login button is clicked 
+2017-08-24 14:33:31,806 INFO  [Log] Validation message for wrong credentials is found on login page 
+2017-08-24 14:33:31,851 INFO  [Log] [[ChromeDriver: chrome on XP (7cc4345f2d6c66eabdd1a86c0e8e640f)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div/div[4]/div/alert/div] is visible  
+2017-08-24 14:33:31,879 INFO  [Log] Validation message : Invalid Email or Password. is verified 
+2017-08-24 14:33:31,883 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:33:33,562 INFO  [Log] Driver is closed 
+2017-08-24 14:33:33,562 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:33:33,562 INFO  [Log] X 
+2017-08-24 14:33:33,562 INFO  [Log] X 
+2017-08-24 14:33:33,562 INFO  [Log] X 
+2017-08-24 14:33:33,562 INFO  [Log] X 
+2017-08-24 14:33:33,572 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:33,572 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:33,572 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 SignUp_Invalid_PasswordFormat_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:33:33,572 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:33,572 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:33:33,606 INFO  [Log] Excel file is opened 
+2017-08-24 14:33:39,871 INFO  [Log] Chrome driver is instantiated 
+2017-08-24 14:38:50,152 ERROR [Log] Class Utils | Method initiateBrowser | Exception desc : timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -7.058
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 309.08 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESK-67A', ip: '10.1.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir8800_24886}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 23aaed4564e39672f48258bc0d51999e 
+2017-08-24 14:38:53,122 INFO  [Log] Signup link is found on login page 
+2017-08-24 14:39:06,851 INFO  [Log] Sign Up link is clicked 
+2017-08-24 14:39:12,351 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:39:24,229 INFO  [Log] Janice Rock : entered in Full Name textbox 
+2017-08-24 14:39:24,273 INFO  [Log] Email id textbox is found on SignUp page 
+2017-08-24 14:39:26,482 INFO  [Log] janice@mailinator.com : entered in Email textbox 
+2017-08-24 14:39:26,521 INFO  [Log] Password textbox is found on SignUp page 
+2017-08-24 14:39:27,142 INFO  [Log] gate6 : entered in password textbox 
+2017-08-24 14:39:27,988 INFO  [Log] SignUp button is found on SignUp page 
+2017-08-24 14:39:28,943 INFO  [Log] Login button is clicked 
+2017-08-24 14:39:29,909 INFO  [Log] Validation message for password is found on SignUp page 
+2017-08-24 14:39:29,952 INFO  [Log] [[ChromeDriver: chrome on XP (23aaed4564e39672f48258bc0d51999e)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div[1]/div[4]/div/form/div[3]/div] is visible  
+2017-08-24 14:39:31,154 INFO  [Log] Validation message : Password must contain at least 8 characters, including 1 uppercase, 1 lowercase and 1 number. is verified 
+2017-08-24 14:39:32,475 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:40:08,932 INFO  [Log] Driver is closed 
+2017-08-24 14:40:08,932 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:40:08,932 INFO  [Log] X 
+2017-08-24 14:40:08,932 INFO  [Log] X 
+2017-08-24 14:40:08,932 INFO  [Log] X 
+2017-08-24 14:40:08,932 INFO  [Log] X 
+2017-08-24 14:40:14,936 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:40:14,936 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:40:14,936 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 ForgotPassword_Navigate_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-08-24 14:40:14,936 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:40:14,936 INFO  [Log] **************************************************************************************** 
+2017-08-24 14:40:15,295 INFO  [Log] Excel file is opened 
+2017-08-24 14:40:47,400 ERROR [Log] Class Utils | Method initiateBrowser | Exception desc : Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESK-67A', ip: '10.1.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: ChromeDriver 
+2017-08-24 14:40:50,059 ERROR [Log] Forgot password link is not found on login page. And error is : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESK-67A', ip: '10.1.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver 
+2017-08-24 14:40:50,059 ERROR [Log] Forgot password page is not verified.Error is  : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESK-67A', ip: '10.1.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver 
+2017-08-24 14:40:50,074 ERROR [Log] java.io.FileNotFoundException: \src\testData\PositivRadio_Website_testData.xlsx (The system cannot find the path specified) 
+2017-08-24 14:40:50,384 INFO  [Log] Driver is closed 
+2017-08-24 14:40:50,384 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-08-24 14:40:50,384 INFO  [Log] X 
+2017-08-24 14:40:50,384 INFO  [Log] X 
+2017-08-24 14:40:50,384 INFO  [Log] X 
+2017-08-24 14:40:50,384 INFO  [Log] X 
