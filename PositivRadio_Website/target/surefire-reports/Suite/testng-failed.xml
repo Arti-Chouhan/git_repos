@@ -10,13 +10,6 @@
           <include name="AfterMethod"/>
         </methods>
       </class> <!-- automation_Testcases.SignUp_Test -->
-      <class name="automation_Testcases.SignIn_Test">
-        <methods>
-          <include name="BeforeMethod"/>
-          <include name="AfterMethod"/>
-          <include name="SignIn_Successful_TC"/>
-        </methods>
-      </class> <!-- automation_Testcases.SignIn_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

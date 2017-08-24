@@ -43,7 +43,7 @@ public class ExcelUtils {
 			 
 			 DataFormatter df = new DataFormatter();
 			 String cellData = df.formatCellValue(Cell).toString();
-			 System.out.println("Cell value for "+ RowNum + " & " + ColNum +" is: " + cellData);
+			// System.out.println("Cell value for "+ RowNum + " & " + ColNum +" is: " + cellData);
 			 return cellData;
 			 
 		}
@@ -59,18 +59,18 @@ public class ExcelUtils {
 		{
 			Row = ExcelSheet.getRow(RowNum);
 			Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
-			System.out.println("Getting cell");
+			//System.out.println("Getting cell");
 			if(Cell == null)
 			{
 				Cell = Row.createCell(ColNum);
-				System.out.println("New Cell is created");
+				//System.out.println("New Cell is created");
 				Cell.setCellValue("");
 				Cell.setCellValue(Result);
 			}
 			else
 			{
 				
-				System.out.println("Cell is already there");
+				//System.out.println("Cell is already there");
 				Cell.setCellValue("");
 				Cell.setCellValue(Result);
 			}

@@ -10,9 +10,10 @@ public class Log {
 		Log.info("****************************************************************************************");
 		 
 		Log.info("****************************************************************************************");
-	 
-		Log.info("$$$$$$$$$$$$$$$$$$$$$                 "+sTestCaseName+ "       $$$$$$$$$$$$$$$$$$$$$$$$$");
-	 
+	    System.out.println("****************************************************************************************");
+		Log.info("$$$$$$$$$$$$$$$$$$$$$                 "+sTestCaseName + " testcase has started      $$$$$$$$$$$$$$$$$$$$$$$$$");
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$                 "+sTestCaseName+ " testcase has started      $$$$$$$$$$$$$$$$$$$$$$$$$");
+		 System.out.println("****************************************************************************************");
 		Log.info("****************************************************************************************");
 	 
 		Log.info("****************************************************************************************");
@@ -24,8 +25,9 @@ public class Log {
 	 public static void endTestCase(String sTestCaseName)
 	 {
 	 
-		Log.info("XXXXXXXXXXXXXXXXXXXXXXX             "+"-E---N---D-"+"             XXXXXXXXXXXXXXXXXXXXXX");
-	 
+		Log.info("XXXXXXXXXXXXXXXXXXXXXXX---------      "+sTestCaseName +" has ENDED"+"       --------- XXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXX---------      "+sTestCaseName +" has ENDED"+"       --------- XXXXXXXXXXXXXXXXXXXXXX");
+	    System.out.println();
 		Log.info("X");
 	 
 		Log.info("X");

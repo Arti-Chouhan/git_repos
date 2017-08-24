@@ -45,7 +45,7 @@ public class SignUp_Test {
 		new Base_Class(driver); //passing the above driver to all the modules/actions classes in which Base class is extended
 	}
 
-	@Test(priority=0) 
+	@Test(priority=8) 
 	public void SignUp_Successful_TC() throws Exception
 	{
 		try
@@ -77,7 +77,7 @@ public class SignUp_Test {
 	}
 	
 
-	@Test(priority=1) 
+	@Test(priority=9) 
 	public void SignUp_Blank_FullName_TC() throws Exception
 	{
 		try
@@ -108,7 +108,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=2) 
+	@Test(priority=10) 
 	public void SignUp_Blank_Email_TC() throws Exception
 	{
 		try
@@ -139,7 +139,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=3) 
+	@Test(priority=11) 
 	public void SignUp_Blank_Password_TC() throws Exception
 	{
 		try
@@ -170,7 +170,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=4) 
+	@Test(priority=12) 
 	public void SignUp_Invalid_EmailFormat_TC() throws Exception
 	{
 		try
@@ -201,7 +201,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=5) 
+	@Test(priority=13) 
 	public void SignUp_Invalid_PasswordFormat_TC() throws Exception
 	{
 		try
@@ -232,7 +232,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=6) 
+	@Test(priority=14) 
 	public void Registered_Email_TC() throws Exception
 	{
 		try
@@ -263,7 +263,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=7) 
+	@Test(priority=15) 
 	public void Popup_Privacy_Policy_TC() throws Exception
 	{
 		try
@@ -294,7 +294,7 @@ public class SignUp_Test {
 					
 	}
 	
-	@Test(priority=8) 
+	@Test(priority=16) 
 	public void Popup_T_and_C_TC() throws Exception
 	{
 		try
