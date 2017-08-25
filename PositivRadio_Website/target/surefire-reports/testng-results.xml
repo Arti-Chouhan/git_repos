@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="17" passed="16">
+<testng-results skipped="17" failed="0" ignored="0" total="17" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1019946" started-at="2017-08-24T10:37:38Z" finished-at="2017-08-24T10:54:38Z">
+  <suite name="Suite" duration-ms="393" started-at="2017-08-25T07:20:53Z" finished-at="2017-08-25T07:20:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1019946" started-at="2017-08-24T10:37:38Z" finished-at="2017-08-24T10:54:38Z">
+    <test name="Test" duration-ms="393" started-at="2017-08-25T07:20:53Z" finished-at="2017-08-25T07:20:53Z">
       <class name="automation_Testcases.SignIn_Test">
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="58659" started-at="2017-08-24T16:07:38Z" finished-at="2017-08-24T16:08:36Z">
+        <test-method status="FAIL" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="303" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
           <params>
             <param index="0">
               <value>
@@ -15,295 +15,21 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignIn_Successful_TC()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="SignIn_Successful_TC" duration-ms="8419" started-at="2017-08-24T16:08:36Z" finished-at="2017-08-24T16:08:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignIn_Successful_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="7475" started-at="2017-08-24T16:08:45Z" finished-at="2017-08-24T16:08:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="58818" started-at="2017-08-24T16:09:37Z" finished-at="2017-08-24T16:10:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.Blank_Email_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Blank_Email_TC()[pri:1, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Blank_Email_TC" duration-ms="782" started-at="2017-08-24T16:10:36Z" finished-at="2017-08-24T16:10:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Blank_Email_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="1079" started-at="2017-08-24T16:10:36Z" finished-at="2017-08-24T16:10:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="38133" started-at="2017-08-24T16:11:27Z" finished-at="2017-08-24T16:12:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.Blank_Password_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Blank_Password_TC()[pri:2, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Blank_Password_TC" duration-ms="553" started-at="2017-08-24T16:12:05Z" finished-at="2017-08-24T16:12:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Blank_Password_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="1010" started-at="2017-08-24T16:12:06Z" finished-at="2017-08-24T16:12:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="38768" started-at="2017-08-24T16:12:35Z" finished-at="2017-08-24T16:13:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.Invalid_EmailFormat_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Invalid_EmailFormat_TC()[pri:3, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Invalid_EmailFormat_TC" duration-ms="632" started-at="2017-08-24T16:13:13Z" finished-at="2017-08-24T16:13:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Invalid_EmailFormat_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="1003" started-at="2017-08-24T16:13:14Z" finished-at="2017-08-24T16:13:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="61262" started-at="2017-08-24T16:14:13Z" finished-at="2017-08-24T16:15:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.Incorrect_Password_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Incorrect_Password_TC()[pri:4, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Incorrect_Password_TC" duration-ms="2901" started-at="2017-08-24T16:15:14Z" finished-at="2017-08-24T16:15:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Incorrect_Password_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="1956" started-at="2017-08-24T16:15:17Z" finished-at="2017-08-24T16:15:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="43331" started-at="2017-08-24T16:16:06Z" finished-at="2017-08-24T16:16:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.Unregistered_Email_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Unregistered_Email_TC()[pri:5, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Unregistered_Email_TC" duration-ms="1502" started-at="2017-08-24T16:16:50Z" finished-at="2017-08-24T16:16:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Unregistered_Email_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="979" started-at="2017-08-24T16:16:51Z" finished-at="2017-08-24T16:16:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="249725" started-at="2017-08-24T16:17:47Z" finished-at="2017-08-24T16:21:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.ForgotPassword_Navigate_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ForgotPassword_Navigate_TC()[pri:6, instance:automation_Testcases.SignIn_Test@1e67b872]" name="ForgotPassword_Navigate_TC" duration-ms="2817" started-at="2017-08-24T16:21:57Z" finished-at="2017-08-24T16:21:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ForgotPassword_Navigate_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="3290" started-at="2017-08-24T16:21:59Z" finished-at="2017-08-24T16:22:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="34170" started-at="2017-08-24T16:22:47Z" finished-at="2017-08-24T16:23:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignIn_Test.SignUp_Navigate_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Navigate_TC()[pri:7, instance:automation_Testcases.SignIn_Test@1e67b872]" name="SignUp_Navigate_TC" duration-ms="255" started-at="2017-08-24T16:23:21Z" finished-at="2017-08-24T16:23:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Navigate_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="AfterMethod" is-config="true" duration-ms="926" started-at="2017-08-24T16:23:21Z" finished-at="2017-08-24T16:23:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- automation_Testcases.SignIn_Test -->
-      <class name="automation_Testcases.SignUp_Test">
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="40354" started-at="2017-08-24T16:08:52Z" finished-at="2017-08-24T16:09:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Successful_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Successful_TC()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Successful_TC" duration-ms="2956" started-at="2017-08-24T16:09:32Z" finished-at="2017-08-24T16:09:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Successful_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="1420" started-at="2017-08-24T16:09:35Z" finished-at="2017-08-24T16:09:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="47414" started-at="2017-08-24T16:10:38Z" finished-at="2017-08-24T16:11:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Blank_FullName_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Blank_FullName_TC()[pri:1, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Blank_FullName_TC" duration-ms="1008" started-at="2017-08-24T16:11:25Z" finished-at="2017-08-24T16:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Blank_FullName_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="947" started-at="2017-08-24T16:11:26Z" finished-at="2017-08-24T16:11:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="25772" started-at="2017-08-24T16:12:07Z" finished-at="2017-08-24T16:12:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Blank_Email_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Blank_Email_TC()[pri:2, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Blank_Email_TC" duration-ms="1093" started-at="2017-08-24T16:12:32Z" finished-at="2017-08-24T16:12:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Blank_Email_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="1071" started-at="2017-08-24T16:12:34Z" finished-at="2017-08-24T16:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="54536" started-at="2017-08-24T16:13:15Z" finished-at="2017-08-24T16:14:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Blank_Password_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Blank_Password_TC()[pri:3, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Blank_Password_TC" duration-ms="1304" started-at="2017-08-24T16:14:10Z" finished-at="2017-08-24T16:14:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Blank_Password_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="1692" started-at="2017-08-24T16:14:11Z" finished-at="2017-08-24T16:14:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="44935" started-at="2017-08-24T16:15:19Z" finished-at="2017-08-24T16:16:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Invalid_EmailFormat_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Invalid_EmailFormat_TC()[pri:4, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Invalid_EmailFormat_TC" duration-ms="1775" started-at="2017-08-24T16:16:04Z" finished-at="2017-08-24T16:16:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Invalid_EmailFormat_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="1002" started-at="2017-08-24T16:16:05Z" finished-at="2017-08-24T16:16:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="49636" started-at="2017-08-24T16:16:52Z" finished-at="2017-08-24T16:17:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Invalid_PasswordFormat_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="SignUp_Invalid_PasswordFormat_TC()[pri:5, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Invalid_PasswordFormat_TC" duration-ms="2042" started-at="2017-08-24T16:17:42Z" finished-at="2017-08-24T16:17:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp_Invalid_PasswordFormat_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="3029" started-at="2017-08-24T16:17:44Z" finished-at="2017-08-24T16:17:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="38305" started-at="2017-08-24T16:22:03Z" finished-at="2017-08-24T16:22:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.Registered_Email_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="Registered_Email_TC()[pri:6, instance:automation_Testcases.SignUp_Test@60addb54]" name="Registered_Email_TC" duration-ms="4115" started-at="2017-08-24T16:22:41Z" finished-at="2017-08-24T16:22:45Z">
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[Validation message for invalid credentials is incorrect expected [true] but found [false]]]>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Validation message for invalid credentials is incorrect expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at Common_Utility.Utils.verify_errorMsg(Utils.java:201)
-	at automation_Testcases.SignUp_Test.Registered_Email_TC(SignUp_Test.java:242)
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -326,54 +52,987 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="SignIn_Successful_TC()[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="SignIn_Successful_TC" duration-ms="1" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn_Successful_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="Blank_Email_TC()[pri:1, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Blank_Email_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_Email_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="Blank_Password_TC()[pri:2, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Blank_Password_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_Password_TC -->
+        <test-method status="SKIP" signature="Invalid_EmailFormat_TC()[pri:3, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Invalid_EmailFormat_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_EmailFormat_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="Incorrect_Password_TC()[pri:4, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Incorrect_Password_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Incorrect_Password_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="Unregistered_Email_TC()[pri:5, instance:automation_Testcases.SignIn_Test@1e67b872]" name="Unregistered_Email_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unregistered_Email_TC -->
+        <test-method status="SKIP" signature="ForgotPassword_Navigate_TC()[pri:6, instance:automation_Testcases.SignIn_Test@1e67b872]" name="ForgotPassword_Navigate_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword_Navigate_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignIn_Test@1e67b872]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="SignUp_Navigate_TC()[pri:7, instance:automation_Testcases.SignIn_Test@1e67b872]" name="SignUp_Navigate_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Navigate_TC -->
+      </class> <!-- automation_Testcases.SignIn_Test -->
+      <class name="automation_Testcases.SignUp_Test">
+        <test-method status="FAIL" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void automation_Testcases.SignUp_Test.SignUp_Successful_TC() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="SignUp_Successful_TC()[pri:8, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Successful_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Successful_TC -->
+        <test-method status="SKIP" signature="SignUp_Blank_FullName_TC()[pri:9, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Blank_FullName_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Blank_FullName_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="SignUp_Blank_Email_TC()[pri:10, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Blank_Email_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Blank_Email_TC -->
+        <test-method status="SKIP" signature="SignUp_Blank_Password_TC()[pri:11, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Blank_Password_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Blank_Password_TC -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="SKIP" signature="SignUp_Invalid_EmailFormat_TC()[pri:12, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Invalid_EmailFormat_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Invalid_EmailFormat_TC -->
+        <test-method status="SKIP" signature="Registered_Email_TC()[pri:14, instance:automation_Testcases.SignUp_Test@60addb54]" name="Registered_Email_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registered_Email_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="1184" started-at="2017-08-24T16:22:46Z" finished-at="2017-08-24T16:22:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="43713" started-at="2017-08-24T16:23:22Z" finished-at="2017-08-24T16:24:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.Popup_Privacy_Policy_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Popup_Privacy_Policy_TC()[pri:7, instance:automation_Testcases.SignUp_Test@60addb54]" name="Popup_Privacy_Policy_TC" duration-ms="848" started-at="2017-08-24T16:24:06Z" finished-at="2017-08-24T16:24:07Z">
+        <test-method status="SKIP" signature="SignUp_Invalid_PasswordFormat_TC()[pri:13, instance:automation_Testcases.SignUp_Test@60addb54]" name="SignUp_Invalid_PasswordFormat_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_Invalid_PasswordFormat_TC -->
+        <test-method status="SKIP" signature="Popup_Privacy_Policy_TC()[pri:15, instance:automation_Testcases.SignUp_Test@60addb54]" name="Popup_Privacy_Policy_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Popup_Privacy_Policy_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="946" started-at="2017-08-24T16:24:07Z" finished-at="2017-08-24T16:24:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="27946" started-at="2017-08-24T16:24:08Z" finished-at="2017-08-24T16:24:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void automation_Testcases.SignUp_Test.Popup_T_and_C_TC() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Popup_T_and_C_TC()[pri:8, instance:automation_Testcases.SignUp_Test@60addb54]" name="Popup_T_and_C_TC" duration-ms="912" started-at="2017-08-24T16:24:36Z" finished-at="2017-08-24T16:24:37Z">
+        <test-method status="SKIP" signature="Popup_T_and_C_TC()[pri:16, instance:automation_Testcases.SignUp_Test@60addb54]" name="Popup_T_and_C_TC" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Popup_T_and_C_TC -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="AfterMethod" is-config="true" duration-ms="869" started-at="2017-08-24T16:24:37Z" finished-at="2017-08-24T16:24:38Z">
+        <test-method status="SKIP" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:automation_Testcases.SignUp_Test@60addb54]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T12:50:53Z" finished-at="2017-08-25T12:50:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
+        </test-method> <!-- BeforeMethod -->
       </class> <!-- automation_Testcases.SignUp_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

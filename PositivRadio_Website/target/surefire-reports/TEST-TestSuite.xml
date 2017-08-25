@@ -1,202 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,022.754" tests="17" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.283" tests="34" errors="0" skipped="32" failures="2">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="PositivRadio-Website"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="3eed45b14cba1481"/>
-    <property name="POM_ARTIFACTID" value="PositivRadio_Website"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="PositivRadio Automation project"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
-    <property name="java.runtime.version" value="1.8.0_131-b11"/>
-    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
-    <property name="user.name" value="DESK-67A$"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="PositivRadio-Website"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio-Website/4/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="_CSRUN_DISABLE_WORKAROUNDS" value="1"/>
-    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
-    <property name="java.version" value="1.8.0_131"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="DESK-67A$"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="4"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="maven.conf" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio-Website/4/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.131-b11"/>
-    <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="c05a57f613a50404508cdffa7f4dae76672c2099"/>
-    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio-Website/display/redirect"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="user.script" value=""/>
-    <property name="SERVICE_ID" value="Jenkins"/>
-    <property name="COMPUTERNAME" value="DESK-67A"/>
-    <property name="POM_GROUPID" value="PositivRadio_Website"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-PositivRadio-Website-4"/>
-    <property name="JENKINS_SERVER_COOKIE" value="3eed45b14cba1481"/>
+    <property name="LOGONSERVER" value="\\DESK-67A"/>
     <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 63025"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_131/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 2, GenuineIntel"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\Owner\git\git_repos\PositivRadio_Website"/>
-    <property name="USERDOMAIN" value="INDORE-GATE6"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="MAVEN_HOME" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="4"/>
-    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="PROCESSOR_REVISION" value="2502"/>
-    <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="cc967cebb83a534983be7451737840911e45a529"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
-    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\PositivRadio-Website"/>
-    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
-    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="CATALINA_HOME" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\PowerShell\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="DESK-67A"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JAVA_OPTS" value=" &quot;-Djdk.tls.ephemeralDHKeySize=2048&quot; -Djava.protocol.handler.pkgs=org.apache.catalina.webresources"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="JOB_NAME" value="PositivRadio Website"/>
+    <property name="COMPUTERNAME" value="DESK-67A"/>
+    <property name="EXECUTABLE" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\bin\catalina.bat"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="Owner"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 2, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Owner\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/1/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-PositivRadio Website-1"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0 C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\webapps\jenkins\WEB-INF\lib\remoting-3.7.jar C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 54792"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4f52efdbc6c5aabb"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_131;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="GIT_COMMIT" value="5c7c0020cf692e58dbbac0371d2b868903933f75"/>
+    <property name="java.io.tmpdir" value="C:\Users\Owner\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Owner\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="CATALINA_TMPDIR" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\temp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="ACTION" value="start"/>
+    <property name="M2_HOME" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
+    <property name="=C:" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\bin"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4f52efdbc6c5aabb"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.8.0_131"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.8.0_131\bin\java.exe&quot;"/>
+    <property name="_CSRUN_DISABLE_WORKAROUNDS" value="1"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.8.0_131\bin\java.exe&quot;"/>
+    <property name="MAVEN_HOME" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\conf\logging.properties&quot;"/>
+    <property name="HOMEPATH" value="\Users\Owner"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="maven3.interceptor" value="C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_131;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JSSE_OPTS" value="&quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_131\bin\jdb.exe&quot;"/>
+    <property name="OneDrive" value="C:\Users\Owner\OneDrive"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/1/display/redirect"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="JENKINS_HOME" value="C:\Users\Owner\.jenkins"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="TEMP" value="C:\Users\Owner\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="JDK_JAVA_OPTIONS" value=" --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="2502"/>
+    <property name="HUDSON_HOME" value="C:\Users\Owner\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESK-67A"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="CURRENT_DIR" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Owner"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Owner"/>
+    <property name="USERNAME" value="Owner"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\Owner\git\git_repos\PositivRadio_Website"/>
+    <property name="maven.conf" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\Owner\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.class.path" value="C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\Owner\.jenkins\workspace\PositivRadio Website"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_131/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="maven.home" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
+    <property name="JOB_BASE_NAME" value="PositivRadio Website"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/Arti-Chouhan/git_repos.git"/>
   </properties>
-  <testcase name="SignIn_Successful_TC" classname="automation_Testcases.SignIn_Test" time="8.42"/>
-  <testcase name="SignUp_Successful_TC" classname="automation_Testcases.SignUp_Test" time="2.96"/>
-  <testcase name="Blank_Email_TC" classname="automation_Testcases.SignIn_Test" time="0.782"/>
-  <testcase name="SignUp_Blank_FullName_TC" classname="automation_Testcases.SignUp_Test" time="1.015"/>
-  <testcase name="Blank_Password_TC" classname="automation_Testcases.SignIn_Test" time="0.554"/>
-  <testcase name="SignUp_Blank_Email_TC" classname="automation_Testcases.SignUp_Test" time="1.095"/>
-  <testcase name="Invalid_EmailFormat_TC" classname="automation_Testcases.SignIn_Test" time="0.632"/>
-  <testcase name="SignUp_Blank_Password_TC" classname="automation_Testcases.SignUp_Test" time="1.304"/>
-  <testcase name="Incorrect_Password_TC" classname="automation_Testcases.SignIn_Test" time="2.9"/>
-  <testcase name="SignUp_Invalid_EmailFormat_TC" classname="automation_Testcases.SignUp_Test" time="1.777"/>
-  <testcase name="Unregistered_Email_TC" classname="automation_Testcases.SignIn_Test" time="1.501"/>
-  <testcase name="SignUp_Invalid_PasswordFormat_TC" classname="automation_Testcases.SignUp_Test" time="2.013"/>
-  <testcase name="ForgotPassword_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="2.818"/>
-  <testcase name="Registered_Email_TC" classname="automation_Testcases.SignUp_Test" time="6.523">
-    <failure message="Validation message for invalid credentials is incorrect expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Validation message for invalid credentials is incorrect expected [true] but found [false]
-	at automation_Testcases.SignUp_Test.Registered_Email_TC(SignUp_Test.java:242)
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0.937">
+    <failure message="org/apache/poi/ss/usermodel/Cell" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
 </failure>
-    <system-out><![CDATA[Driver is closed
-Testcase name is : Registered_Email_TC
-Excel file is opened
-Cell value for 0 & 1 is: Test case name
-Cell value for 1 & 1 is: SignIn_Successful_TC
-Cell value for 2 & 1 is: Blank_Email_TC
-Cell value for 3 & 1 is: Blank_Password_TC
-Cell value for 4 & 1 is: Invalid_EmailFormat_TC
-Cell value for 5 & 1 is: Incorrect_Password_TC
-Cell value for 6 & 1 is: Unregistered_Email_TC
-Cell value for 7 & 1 is: ForgotPassword_Navigate_TC
-Cell value for 8 & 1 is: SignUp_Navigate_TC
-Cell value for 9 & 1 is: 
-Cell value for 10 & 1 is: Test case name
-Cell value for 11 & 1 is: SignUp_Successful_TC
-Cell value for 12 & 1 is: SignUp_Blank_FullName_TC
-Cell value for 13 & 1 is: SignUp_Blank_Email_TC
-Cell value for 14 & 1 is: SignUp_Blank_Password_TC
-Cell value for 15 & 1 is: SignUp_Invalid_EmailFormat_TC
-Cell value for 16 & 1 is: SignUp_Invalid_PasswordFormat_TC
-Cell value for 17 & 1 is: Registered_Email_TC
-Row no. matching is : 17
-Returning row no : 17
-Cell value for 17 & 6 is: chrome
-Chrome driver is instantiated
-Website is launched
-Signup link is found on login page
-Sign Up link is clicked
-Cell value for 17 & 3 is: Dane
-Cell value for 17 & 4 is: dane@mailinator.com
-Cell value for 17 & 5 is: Gatesix12
-Email id textbox is found on SignUp page
-Dane : entered in Full Name textbox
-Email id textbox is found on SignUp page
-dane@mailinator.com : entered in Email textbox
-Password textbox is found on SignUp page
-Gatesix12 : entered in password textbox
-SignUp button is found on SignUp page
-Login button is clicked
-Validation message for wrong credentials is found on SignUp page
-[[ChromeDriver: chrome on XP (d0db569b3e72892a51e3297df6b29c77)] -> xpath: html/body/app-root/div/div/div/ng-component/div/div/div[1]/div[4]/div/alert/div] is visible 
+    <system-out><![CDATA[Testcase name is : SignIn_Successful_TC
+****************************************************************************************
+$$$$$$$$$$$$$$$$$$$$$                 SignIn_Successful_TC testcase has started      $$$$$$$$$$$$$$$$$$$$$$$$$
+****************************************************************************************
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 20458
-Only local connections are allowed.
-Aug 24, 2017 4:22:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
   </testcase>
-  <testcase name="SignUp_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0.255"/>
-  <testcase name="Popup_Privacy_Policy_TC" classname="automation_Testcases.SignUp_Test" time="0.845"/>
-  <testcase name="Popup_T_and_C_TC" classname="automation_Testcases.SignUp_Test" time="0.907"/>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SignIn_Successful_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Blank_Email_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Blank_Password_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Invalid_EmailFormat_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Incorrect_Password_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Unregistered_Email_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="ForgotPassword_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="SignUp_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0.978">
+    <failure message="org/apache/poi/ss/usermodel/Cell" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+</failure>
+    <system-out><![CDATA[Testcase name is : SignUp_Successful_TC
+****************************************************************************************
+$$$$$$$$$$$$$$$$$$$$$                 SignUp_Successful_TC testcase has started      $$$$$$$$$$$$$$$$$$$$$$$$$
+****************************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SignUp_Successful_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="SignUp_Blank_FullName_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="SignUp_Blank_Email_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="SignUp_Blank_Password_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="SignUp_Invalid_EmailFormat_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="SignUp_Invalid_PasswordFormat_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Registered_Email_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Popup_Privacy_Policy_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
+  <testcase name="Popup_T_and_C_TC" classname="automation_Testcases.SignUp_Test" time="0">
+    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
+  </testcase>
 </testsuite>

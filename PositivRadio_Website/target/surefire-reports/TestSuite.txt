@@ -1,8 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1,022.754 s <<< FAILURE! - in TestSuite
-Registered_Email_TC(automation_Testcases.SignUp_Test)  Time elapsed: 6.523 s  <<< FAILURE!
-java.lang.AssertionError: Validation message for invalid credentials is incorrect expected [true] but found [false]
-	at automation_Testcases.SignUp_Test.Registered_Email_TC(SignUp_Test.java:242)
+Tests run: 34, Failures: 2, Errors: 0, Skipped: 32, Time elapsed: 1.283 s <<< FAILURE! - in TestSuite
+BeforeMethod(automation_Testcases.SignIn_Test)  Time elapsed: 0.937 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
+
+BeforeMethod(automation_Testcases.SignUp_Test)  Time elapsed: 0.978 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
 
