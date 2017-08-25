@@ -1,5 +1,6 @@
-/META-INF/
-/testData/
 /Common_Utility/
-/automation_Testcases/
 /appModules/
+/automation_Testcases/
+/pageObjects/
+/testData/
+/META-INF/

@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -38,9 +39,14 @@ public class Utils {
 			{
 				System.setProperty(Constants.chrome_driver, Constants.chrome_driver_path);
 				   driver= new ChromeDriver();
-				   Log.info("Chrome driver is instantiated");
-				 
+				   Log.info("Chrome driver is instantiated");				  
 				  
+			}
+			if(sBrowserName.equalsIgnoreCase("firefox"))
+			{
+				System.setProperty(Constants.firefox_driver,  Constants.firefox_driver_path);
+				driver=new FirefoxDriver();
+				Log.info("Firefox driver is instantiated");			  
 				  
 			}
 			else if(sBrowserName.equalsIgnoreCase("IE"))

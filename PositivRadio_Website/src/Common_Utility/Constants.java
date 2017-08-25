@@ -13,6 +13,12 @@ public class Constants {
 	public static final String chrome_driver_path = "C:\\Users\\Owner\\Downloads\\chromedriver_win32\\chromedriver.exe";
 	
 	
+
+	// Defining Firefox webdriver
+	
+	public static final String firefox_driver = "webdriver.gecko.drive";
+	public static final String firefox_driver_path = "C:\\Users\\Owner\\Downloads\\geckodriver-v0.18.0-win64\\geckodriver.exe";
+	
 	// Defining IE webdriver
 	
 		public static final String IE_driver = "webdriver.ie.driver";
