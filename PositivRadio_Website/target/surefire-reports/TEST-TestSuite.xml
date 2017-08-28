@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.283" tests="34" errors="0" skipped="32" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="699.478" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,19 +32,19 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 2, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Owner\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/1/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/3/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-PositivRadio Website-1"/>
+    <property name="BUILD_TAG" value="jenkins-PositivRadio Website-3"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0 C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\webapps\jenkins\WEB-INF\lib\remoting-3.7.jar C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 54792"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0 C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26\webapps\jenkins\WEB-INF\lib\remoting-3.7.jar C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 55366"/>
     <property name="JENKINS_SERVER_COOKIE" value="4f52efdbc6c5aabb"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_131;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;"/>
-    <property name="GIT_COMMIT" value="5c7c0020cf692e58dbbac0371d2b868903933f75"/>
+    <property name="GIT_COMMIT" value="f770cc4dee362dcc8ea82bbd5bea68094ce5998a"/>
     <property name="java.io.tmpdir" value="C:\Users\Owner\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\Owner\AppData\Roaming"/>
     <property name="user.language" value="en"/>
@@ -56,7 +56,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CATALINA_BASE" value="C:\Users\Owner\Downloads\apache-tomcat-9.0.0.M26-windows-x86\apache-tomcat-9.0.0.M26"/>
@@ -76,20 +76,22 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="3"/>
     <property name="maven3.interceptor" value="C:\Users\Owner\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_131;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="PositivRadio_Website"/>
+    <property name="POM_ARTIFACTID" value="PositivRadio_Website"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JSSE_OPTS" value="&quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
     <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
     <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_131\bin\jdb.exe&quot;"/>
     <property name="OneDrive" value="C:\Users\Owner\OneDrive"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/PositivRadio%20Website/3/display/redirect"/>
     <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
     <property name="JENKINS_HOME" value="C:\Users\Owner\.jenkins"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="3"/>
     <property name="TEMP" value="C:\Users\Owner\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="JDK_JAVA_OPTIONS" value=" --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED"/>
@@ -97,6 +99,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.variant" value=""/>
     <property name="PROCESSOR_REVISION" value="2502"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="HUDSON_HOME" value="C:\Users\Owner\.jenkins"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0/bin"/>
@@ -141,131 +144,30 @@
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_131/bin"/>
     <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="maven.home" value="C:\Users\Owner\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
     <property name="JOB_BASE_NAME" value="PositivRadio Website"/>
     <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="PositivRadio Automation project"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/Arti-Chouhan/git_repos.git"/>
   </properties>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0.937">
-    <failure message="org/apache/poi/ss/usermodel/Cell" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
-	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
-	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
-</failure>
-    <system-out><![CDATA[Testcase name is : SignIn_Successful_TC
-****************************************************************************************
-$$$$$$$$$$$$$$$$$$$$$                 SignIn_Successful_TC testcase has started      $$$$$$$$$$$$$$$$$$$$$$$$$
-****************************************************************************************
-]]></system-out>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="SignIn_Successful_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Blank_Email_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Blank_Password_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Invalid_EmailFormat_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Incorrect_Password_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Unregistered_Email_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="ForgotPassword_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="SignUp_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0.978">
-    <failure message="org/apache/poi/ss/usermodel/Cell" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
-	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
-	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
-</failure>
-    <system-out><![CDATA[Testcase name is : SignUp_Successful_TC
-****************************************************************************************
-$$$$$$$$$$$$$$$$$$$$$                 SignUp_Successful_TC testcase has started      $$$$$$$$$$$$$$$$$$$$$$$$$
-****************************************************************************************
-]]></system-out>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="BeforeMethod" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="SignUp_Successful_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="SignUp_Blank_FullName_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="SignUp_Blank_Email_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="SignUp_Blank_Password_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="SignUp_Invalid_EmailFormat_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="SignUp_Invalid_PasswordFormat_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Registered_Email_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Popup_Privacy_Policy_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
-  <testcase name="Popup_T_and_C_TC" classname="automation_Testcases.SignUp_Test" time="0">
-    <skipped message="org/apache/poi/ss/usermodel/Cell"/>
-  </testcase>
+  <testcase name="SignIn_Successful_TC" classname="automation_Testcases.SignIn_Test" time="4.032"/>
+  <testcase name="Blank_Email_TC" classname="automation_Testcases.SignIn_Test" time="0.563"/>
+  <testcase name="Blank_Password_TC" classname="automation_Testcases.SignIn_Test" time="0.65"/>
+  <testcase name="Invalid_EmailFormat_TC" classname="automation_Testcases.SignIn_Test" time="0.717"/>
+  <testcase name="Incorrect_Password_TC" classname="automation_Testcases.SignIn_Test" time="1.512"/>
+  <testcase name="Unregistered_Email_TC" classname="automation_Testcases.SignIn_Test" time="1.514"/>
+  <testcase name="ForgotPassword_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0.315"/>
+  <testcase name="SignUp_Navigate_TC" classname="automation_Testcases.SignIn_Test" time="0.246"/>
+  <testcase name="SignUp_Successful_TC" classname="automation_Testcases.SignUp_Test" time="0.718"/>
+  <testcase name="SignUp_Blank_FullName_TC" classname="automation_Testcases.SignUp_Test" time="0.807"/>
+  <testcase name="SignUp_Blank_Email_TC" classname="automation_Testcases.SignUp_Test" time="0.754"/>
+  <testcase name="SignUp_Blank_Password_TC" classname="automation_Testcases.SignUp_Test" time="0.81"/>
+  <testcase name="SignUp_Invalid_EmailFormat_TC" classname="automation_Testcases.SignUp_Test" time="0.838"/>
+  <testcase name="SignUp_Invalid_PasswordFormat_TC" classname="automation_Testcases.SignUp_Test" time="0.877"/>
+  <testcase name="Registered_Email_TC" classname="automation_Testcases.SignUp_Test" time="2.078"/>
+  <testcase name="Popup_Privacy_Policy_TC" classname="automation_Testcases.SignUp_Test" time="0.835"/>
+  <testcase name="Popup_T_and_C_TC" classname="automation_Testcases.SignUp_Test" time="1.307"/>
 </testsuite>

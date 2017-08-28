@@ -42,7 +42,7 @@ public class Utils {
 				   Log.info("Chrome driver is instantiated");				  
 				  
 			}
-			if(sBrowserName.equalsIgnoreCase("firefox"))
+			else if(sBrowserName.equalsIgnoreCase("firefox"))
 			{
 				System.setProperty(Constants.firefox_driver,  Constants.firefox_driver_path);
 				driver=new FirefoxDriver();

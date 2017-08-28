@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 34, Failures: 2, Errors: 0, Skipped: 32, Time elapsed: 1.283 s <<< FAILURE! - in TestSuite
-BeforeMethod(automation_Testcases.SignIn_Test)  Time elapsed: 0.937 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
-	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
-	at automation_Testcases.SignIn_Test.BeforeMethod(SignIn_Test.java:41)
-
-BeforeMethod(automation_Testcases.SignUp_Test)  Time elapsed: 0.978 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
-	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
-	at automation_Testcases.SignUp_Test.BeforeMethod(SignUp_Test.java:39)
-
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 699.478 s - in TestSuite
